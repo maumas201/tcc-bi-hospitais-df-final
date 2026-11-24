@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+coleta_df/
+*.dbc
+*.dbf
+*.parquet
+.env
+processamento/painel.csv
+processamento/mensal.csv
+processamento/hashes.csv
+processamento/conservacao.csv
+processamento/especialidades.csv

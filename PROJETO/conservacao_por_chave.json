@@ -1,0 +1,258 @@
+[
+  {
+    "cnes": "0010456",
+    "competencia": "202506",
+    "registros_antes": 2511,
+    "registros_depois": 2511,
+    "centavos_antes": 759038295,
+    "centavos_depois": 759038295
+  },
+  {
+    "cnes": "0010464",
+    "competencia": "202506",
+    "registros_antes": 1170,
+    "registros_depois": 1170,
+    "centavos_antes": 128310292,
+    "centavos_depois": 128310292
+  },
+  {
+    "cnes": "0010472",
+    "competencia": "202506",
+    "registros_antes": 1654,
+    "registros_depois": 1654,
+    "centavos_antes": 143601238,
+    "centavos_depois": 143601238
+  },
+  {
+    "cnes": "0010480",
+    "competencia": "202506",
+    "registros_antes": 2588,
+    "registros_depois": 2588,
+    "centavos_antes": 151287725,
+    "centavos_depois": 151287725
+  },
+  {
+    "cnes": "0010499",
+    "competencia": "202506",
+    "registros_antes": 1707,
+    "registros_depois": 1707,
+    "centavos_antes": 157988304,
+    "centavos_depois": 157988304
+  },
+  {
+    "cnes": "0010502",
+    "competencia": "202506",
+    "registros_antes": 1062,
+    "registros_depois": 1062,
+    "centavos_antes": 81873099,
+    "centavos_depois": 81873099
+  },
+  {
+    "cnes": "0010510",
+    "competencia": "202506",
+    "registros_antes": 1281,
+    "registros_depois": 1281,
+    "centavos_antes": 253783905,
+    "centavos_depois": 253783905
+  },
+  {
+    "cnes": "0010529",
+    "competencia": "202506",
+    "registros_antes": 784,
+    "registros_depois": 784,
+    "centavos_antes": 37500173,
+    "centavos_depois": 37500173
+  },
+  {
+    "cnes": "0010537",
+    "competencia": "202506",
+    "registros_antes": 984,
+    "registros_depois": 984,
+    "centavos_antes": 94199619,
+    "centavos_depois": 94199619
+  },
+  {
+    "cnes": "0010545",
+    "competencia": "202506",
+    "registros_antes": 448,
+    "registros_depois": 448,
+    "centavos_antes": 16944645,
+    "centavos_depois": 16944645
+  },
+  {
+    "cnes": "0010618",
+    "competencia": "202506",
+    "registros_antes": 130,
+    "registros_depois": 130,
+    "centavos_antes": 13959200,
+    "centavos_depois": 13959200
+  },
+  {
+    "cnes": "0426067",
+    "competencia": "202506",
+    "registros_antes": 10,
+    "registros_depois": 10,
+    "centavos_antes": 3333920,
+    "centavos_depois": 3333920
+  },
+  {
+    "cnes": "2645157",
+    "competencia": "202506",
+    "registros_antes": 919,
+    "registros_depois": 919,
+    "centavos_antes": 83140777,
+    "centavos_depois": 83140777
+  },
+  {
+    "cnes": "2649497",
+    "competencia": "202506",
+    "registros_antes": 25,
+    "registros_depois": 25,
+    "centavos_antes": 21444726,
+    "centavos_depois": 21444726
+  },
+  {
+    "cnes": "2649527",
+    "competencia": "202506",
+    "registros_antes": 24,
+    "registros_depois": 24,
+    "centavos_antes": 2481637,
+    "centavos_depois": 2481637
+  },
+  {
+    "cnes": "2650355",
+    "competencia": "202506",
+    "registros_antes": 28,
+    "registros_depois": 28,
+    "centavos_antes": 1625760,
+    "centavos_depois": 1625760
+  },
+  {
+    "cnes": "2672197",
+    "competencia": "202506",
+    "registros_antes": 750,
+    "registros_depois": 750,
+    "centavos_antes": 94961413,
+    "centavos_depois": 94961413
+  },
+  {
+    "cnes": "2673916",
+    "competencia": "202506",
+    "registros_antes": 994,
+    "registros_depois": 994,
+    "centavos_antes": 230642745,
+    "centavos_depois": 230642745
+  },
+  {
+    "cnes": "2814897",
+    "competencia": "202506",
+    "registros_antes": 292,
+    "registros_depois": 292,
+    "centavos_antes": 8267408,
+    "centavos_depois": 8267408
+  },
+  {
+    "cnes": "2866161",
+    "competencia": "202506",
+    "registros_antes": 1,
+    "registros_depois": 1,
+    "centavos_antes": 1283314,
+    "centavos_depois": 1283314
+  },
+  {
+    "cnes": "3013162",
+    "competencia": "202506",
+    "registros_antes": 32,
+    "registros_depois": 32,
+    "centavos_antes": 30464645,
+    "centavos_depois": 30464645
+  },
+  {
+    "cnes": "3018520",
+    "competencia": "202506",
+    "registros_antes": 6,
+    "registros_depois": 6,
+    "centavos_antes": 9843899,
+    "centavos_depois": 9843899
+  },
+  {
+    "cnes": "3025020",
+    "competencia": "202506",
+    "registros_antes": 11,
+    "registros_depois": 11,
+    "centavos_antes": 3206172,
+    "centavos_depois": 3206172
+  },
+  {
+    "cnes": "3055450",
+    "competencia": "202506",
+    "registros_antes": 32,
+    "registros_depois": 32,
+    "centavos_antes": 12377868,
+    "centavos_depois": 12377868
+  },
+  {
+    "cnes": "3276678",
+    "competencia": "202506",
+    "registros_antes": 362,
+    "registros_depois": 362,
+    "centavos_antes": 386712551,
+    "centavos_depois": 386712551
+  },
+  {
+    "cnes": "5717515",
+    "competencia": "202506",
+    "registros_antes": 2436,
+    "registros_depois": 2436,
+    "centavos_antes": 300527610,
+    "centavos_depois": 300527610
+  },
+  {
+    "cnes": "6243495",
+    "competencia": "202506",
+    "registros_antes": 72,
+    "registros_depois": 72,
+    "centavos_antes": 68663838,
+    "centavos_depois": 68663838
+  },
+  {
+    "cnes": "6730914",
+    "competencia": "202506",
+    "registros_antes": 67,
+    "registros_depois": 67,
+    "centavos_antes": 51304534,
+    "centavos_depois": 51304534
+  },
+  {
+    "cnes": "6876617",
+    "competencia": "202506",
+    "registros_antes": 623,
+    "registros_depois": 623,
+    "centavos_antes": 160833071,
+    "centavos_depois": 160833071
+  },
+  {
+    "cnes": "7978642",
+    "competencia": "202506",
+    "registros_antes": 75,
+    "registros_depois": 75,
+    "centavos_antes": 63974184,
+    "centavos_depois": 63974184
+  },
+  {
+    "cnes": "9040021",
+    "competencia": "202506",
+    "registros_antes": 39,
+    "registros_depois": 39,
+    "centavos_antes": 22721176,
+    "centavos_depois": 22721176
+  },
+  {
+    "cnes": "9710248",
+    "competencia": "202506",
+    "registros_antes": 3,
+    "registros_depois": 3,
+    "centavos_antes": 1000176,
+    "centavos_depois": 1000176
+  }
+]

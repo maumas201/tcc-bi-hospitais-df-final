@@ -1,0 +1,3 @@
+APROVADO | Hospital da Região Leste | out-dez/2025 | 4,63; 4,45; 5,54
+APROVADO | Cenário sintético | Não calculável (zero leitos SUS)
+APROVADO | Cenário sintético | Não calculável (quantidade de leitos SUS ausente)
