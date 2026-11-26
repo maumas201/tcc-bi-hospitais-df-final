@@ -1,0 +1,26 @@
+[
+  {
+    "rodada": 1,
+    "operacao": "primeira_execucao_apptest",
+    "segundos": "1.365614",
+    "esperado": "265.907 | R$ 469.282.753,25",
+    "observado": "265.907 | R$ 469.282.753,25",
+    "situacao": "APROVADO"
+  },
+  {
+    "rodada": 1,
+    "operacao": "filtro_competencia",
+    "segundos": "0.044193",
+    "esperado": "21.120 | R$ 33.972.979,19",
+    "observado": "21.120 | R$ 33.972.979,19",
+    "situacao": "APROVADO"
+  },
+  {
+    "rodada": 1,
+    "operacao": "filtro_estabelecimento",
+    "segundos": "0.045243",
+    "esperado": "2.511 | R$ 7.590.382,95",
+    "observado": "2.511 | R$ 7.590.382,95",
+    "situacao": "APROVADO"
+  }
+]

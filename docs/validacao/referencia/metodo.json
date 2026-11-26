@@ -1,0 +1,13 @@
+{
+  "plataforma": "Linux",
+  "python": "3.12.14",
+  "motores": "Python padrão, leitor_dbf.registros, conversor C dbc2dbf/blast",
+  "sha256": {
+    "manifesto_publico.csv": "886134d20dcc8a9b35aeeb841e6bad54d12d2dbc8f89619f7ffeea1f8e8e6c9a",
+    "painel.csv": "3829421ab6c867f34d32f60761693c6989f849b3e448f8474a730460140f844b",
+    "leitor_dbf.py": "987852a2a78339638b038708ba1b16fb9531e8d975365189630f425a1602985f",
+    "auditar.py": "42e4baeb685054275103385af2286f3268138142800335cf4ad6543deabfdb84",
+    "converter": "a42b2d13ef014dc1ff765b95b1960d6fc452022cdddfe113d8573fccc26e9eaf"
+  },
+  "escopo": "26 DBC históricos RD/LT verificados contra o manifesto, 13 meses, 427 chaves de produção, 16 campos por chave. Campos numéricos comparados com tolerância absoluta 1e-8. Repetições agrupadas dentro de cada competência."
+}

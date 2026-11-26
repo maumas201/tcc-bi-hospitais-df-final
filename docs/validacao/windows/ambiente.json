@@ -1,0 +1,19 @@
+﻿{
+    "coleta":  "2026-11-26T15:05:29.1210365-03:00",
+    "fuso":  "E. South America Standard Time",
+    "sistema":  "Microsoft Windows 11 Home",
+    "arquitetura":  "64 bits",
+    "versao":  "25H2",
+    "build":  "26200",
+    "revisao_build":  9974,
+    "cpu":  "AMD Ryzen 5 5600 6-Core Processor              ",
+    "nucleos":  6,
+    "ram_GiB":  15.9,
+    "gpu":  [
+                "NVIDIA GeForce RTX 3060"
+            ],
+    "powershell":  "5.1.26100.9818",
+    "git":  "git version 2.53.0.windows.1",
+    "commit":  "60a541c2da0736c12d0d7a99bfe9bd1c2c644f33",
+    "python":  "Python 3.12.10"
+}

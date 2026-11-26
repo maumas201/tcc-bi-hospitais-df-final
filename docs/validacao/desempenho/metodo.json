@@ -1,0 +1,17 @@
+{
+  "inicio": "2026-11-26T15:51:54.808439-03:00",
+  "commit": "09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "dependencias": {
+    "streamlit": "1.50.0",
+    "pandas": "2.3.3",
+    "altair": "5.5.0"
+  },
+  "protocolo": "3 processos Python separados, primeira chamada AppTest.run e dois filtros sequenciais no mesmo AppTest; tempo perf_counter; sem navegador; importacao do AppTest e inicio do processo excluidos; cache de disco do SO nao controlado.",
+  "parametros": {
+    "periodo_inicial": "202506-202606",
+    "filtro_competencia": "202506",
+    "filtro_cnes": "0010456"
+  }
+}

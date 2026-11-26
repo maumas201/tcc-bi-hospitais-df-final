@@ -1,0 +1,23 @@
+[
+  {
+    "operacao": "primeira_execucao_apptest",
+    "n": 3,
+    "mediana_segundos": 1.238694,
+    "min_segundos": 1.216017,
+    "max_segundos": 1.365614
+  },
+  {
+    "operacao": "filtro_competencia",
+    "n": 3,
+    "mediana_segundos": 0.044105,
+    "min_segundos": 0.043038,
+    "max_segundos": 0.044193
+  },
+  {
+    "operacao": "filtro_estabelecimento",
+    "n": 3,
+    "mediana_segundos": 0.045183,
+    "min_segundos": 0.045051,
+    "max_segundos": 0.045243
+  }
+]

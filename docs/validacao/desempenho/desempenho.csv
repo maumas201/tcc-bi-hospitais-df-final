@@ -1,0 +1,10 @@
+﻿rodada;operacao;segundos;esperado;observado;situacao
+1;primeira_execucao_apptest;1.365614;265.907 | R$ 469.282.753,25;265.907 | R$ 469.282.753,25;APROVADO
+1;filtro_competencia;0.044193;21.120 | R$ 33.972.979,19;21.120 | R$ 33.972.979,19;APROVADO
+1;filtro_estabelecimento;0.045243;2.511 | R$ 7.590.382,95;2.511 | R$ 7.590.382,95;APROVADO
+2;primeira_execucao_apptest;1.238694;265.907 | R$ 469.282.753,25;265.907 | R$ 469.282.753,25;APROVADO
+2;filtro_competencia;0.043038;21.120 | R$ 33.972.979,19;21.120 | R$ 33.972.979,19;APROVADO
+2;filtro_estabelecimento;0.045183;2.511 | R$ 7.590.382,95;2.511 | R$ 7.590.382,95;APROVADO
+3;primeira_execucao_apptest;1.216017;265.907 | R$ 469.282.753,25;265.907 | R$ 469.282.753,25;APROVADO
+3;filtro_competencia;0.044105;21.120 | R$ 33.972.979,19;21.120 | R$ 33.972.979,19;APROVADO
+3;filtro_estabelecimento;0.045051;2.511 | R$ 7.590.382,95;2.511 | R$ 7.590.382,95;APROVADO
