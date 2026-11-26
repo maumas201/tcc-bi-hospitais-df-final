@@ -51,14 +51,16 @@ O painel abre com os CSV agregados distribuídos. Os arquivos DBC históricos s�
 
 ## Avaliação técnica e resultados
 
-O desenvolvimento e os testes iniciais ocorreram em ambiente Windows. O manifesto da coleta registra a aquisição dos 39 arquivos em 23 de novembro de 2026. Em 26 de novembro de 2026, a verificação da aplicação no Windows foi complementada por auditorias das fontes RD e LT, ensaio de desempenho com AppTest e inspeção da interface. A reexecução em Linux, realizada com auxílio do ChatGPT a partir dos mesmos arquivos originais e da revisão avaliada, constitui uma verificação complementar de reprodutibilidade, e não substitui os testes em Windows.
+[Índice completo de documentação e evidências da avaliação](docs/indice_evidencias.md) · [Registro de execução em Windows](docs/validacao/windows/registro_execucao.md) · [Matriz de testes](docs/validacao/matriz_testes.csv).
+
+O desenvolvimento e os testes iniciais ocorreram em ambiente Windows. O manifesto da coleta registra a aquisição dos 39 arquivos em 23 de novembro de 2026. Em 26 de novembro de 2026, a verificação da aplicação no Windows foi complementada por auditorias das fontes RD e LT, ensaio de desempenho com AppTest, inspeção da interface e reconstrução integral dos 39 arquivos DBC históricos em Windows. A reexecução em Linux, realizada com auxílio do ChatGPT a partir dos mesmos arquivos originais e da revisão avaliada, constitui uma verificação complementar de reprodutibilidade, e não substitui os testes em Windows.
 
 [Ambientes de execução e procedimento de validação](versao_avaliada/evidencias/evidencias_reexecucao/LEIA-ME.md).
 
 | Verificação | Resultado da versão avaliada | Evidência |
 |---|---|---|
 | Conservação após integrar SIH e CNES | 427 pares de estabelecimento e competência conferidos, com a mesma contagem de registros e o mesmo valor aprovado antes e depois da integração | [CSV por chave](versao_avaliada/dados/conservacao.csv) |
-| Reconstrução a partir da coleta preservada | Cinco tabelas reproduzidas a partir dos arquivos originais | [Comparação das tabelas](versao_avaliada/evidencias/evidencias_reexecucao/03_comparacao.txt) |
+| Reconstrução a partir da coleta preservada | Cinco tabelas reproduzidas a partir dos arquivos originais | [Reconstrução em Windows](docs/validacao/windows/reconstrucao_integral.md) · [Comparação em Linux](versao_avaliada/evidencias/evidencias_reexecucao/03_comparacao.txt) |
 | Regressão | Sete testes aprovados | [Casos e resultados](versao_avaliada/evidencias/evidencias_reexecucao/04_regressao_detalhada.txt) |
 | Aplicação e cenário P2 | Verificação dos filtros, especialidades e razão entre registros de AIH e leitos SUS | [Execução Windows](versao_avaliada/evidencias/verificacao_windows.txt) · [Resultado do P2](versao_avaliada/resultado_p2.txt) |
 | Comparação externa | A tabela mensal permite identificar as competências com diferenças entre o painel e a consulta TABNET preservada | [Exportações e comparação](versao_avaliada/conciliacao/) |
