@@ -16,7 +16,7 @@ Protótipo de Business Intelligence que integra registros de autorizações de i
 
 ![Visão geral do Distrito Federal com a produção e o valor aprovado por competência](docs/imagens/01_df_visao_geral_13_competencias.png)
 
-[Assistir ou baixar a demonstração do painel (MP4, 4 min 13 s)](docs/video/demonstracao.mp4) · [Galeria com as seis capturas e seus filtros](docs/galeria.md)
+[Assistir ou baixar a demonstração do painel (MP4, 4 min 13 s)](docs/video/demonstracao.mp4) · [Galeria com as sete capturas e seus filtros](docs/galeria.md)
 
 ## Executar e verificar no Windows
 

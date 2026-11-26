@@ -42,4 +42,6 @@ Distrito Federal, registros de AIH, série completa de junho de 2025 a junho de 
 
 Foram conferidos 35 pares estabelecimento–competência. O RD e o painel registraram 21.522 AIH; o TABNET, 21.519. A divergência interna é zero; a externa é de três registros, com causa indeterminada. Consulte a [tabela mensal de comparação](../versao_avaliada/dados/comparacao_tabnet.csv).
 
+![Comparação dos registros de AIH no DF em maio de 2026](imagens/07_df_maio_2026_comparacao_aih.png)
+
 [Voltar ao README](../README.md)
