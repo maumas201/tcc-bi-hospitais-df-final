@@ -1,0 +1,6 @@
+Início UTC: 2026-11-26T03:51:02.054151+00:00 
+Pasta: versao_avaliada/processamento 
+Comando: python especialidades.py coleta_df --saida especialidades.csv
+427 chaves, 265907 registros, 1222 grupos
+Fim UTC: 2026-11-26T03:51:02.731415+00:00 
+Código de saída: 0

@@ -1,30 +1,64 @@
-# Business Intelligence na gestão hospitalar pública do Distrito Federal
+# Produção hospitalar do SUS no Distrito Federal
 
-Repositório da versão avaliada do TCC II, com aplicação Streamlit, dados públicos agregados do SIH-SUS e CNES, processamento e evidências de verificação. O recorte corresponde a 13 competências, de junho de 2025 a junho de 2026.
+Protótipo de Business Intelligence que integra registros de autorizações de internação hospitalar (AIH) do SIH/SUS e cadastros de estabelecimentos e leitos do CNES. O painel permite consultar a produção por hospital e mês de processamento, examinar os leitos cadastrados e conferir os indicadores com os arquivos de origem. A versão avaliada abrange 13 competências, de junho de 2025 a junho de 2026.
 
-## Visão do painel
+**TCC de Sistemas de Informação — UDF**  
+**Título** — Integração de dados do SIH/SUS e do CNES no Distrito Federal: desenvolvimento e avaliação técnica de um protótipo de Business Intelligence para análise da produção hospitalar e dos leitos cadastrados.
 
-![Visão geral do Distrito Federal — 13 competências](versao_avaliada/evidencias/DF_13_competencias.png)
+| Autores | Contribuições |
+|---|---|
+| Maurício Rafael Oliveira da Silva | Implementação do código, testes, pesquisa de tecnologias e pesquisa metodológica. |
+| Gabriel Silva dos Santos | Pesquisa de trabalhos correlatos, produção e revisão do texto e pesquisa metodológica. |
 
-## Execução
+**Orientação:** Profa. Kadidja.
 
-Com Python 3.12, abra o PowerShell na raiz deste repositório:
+## Demonstração
+
+![Visão geral do Distrito Federal com a produção e o valor aprovado por competência](docs/imagens/01_df_visao_geral_13_competencias.png)
+
+[Assistir ou baixar a demonstração do painel (MP4, 4 min 13 s)](docs/video/demonstracao.mp4) · [Galeria com as sete capturas e seus filtros](docs/galeria.md)
+
+## Executar e verificar no Windows
+
+Com Git e Python 3.12 instalados, abra o PowerShell em uma pasta de trabalho e execute os comandos abaixo. Quem já tem o clone pode começar na pasta `versao_avaliada` do repositório.
 
 ```powershell
-cd versao_avaliada
+git clone https://github.com/maumas201/tcc-bi-hospitais-df-final.git
+cd tcc-bi-hospitais-df-final/versao_avaliada
 py -3.12 -m venv .venv
-.\.venv\Scripts\python -m pip install -r requirements.txt
-.\.venv\Scripts\python verificar.py
-.\.venv\Scripts\python -m streamlit run app.py
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe verificar.py
+.\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-## Documentação e evidências
+O painel abre com os CSV agregados distribuídos. Para repetir o processamento desde os DBC, consulte o [procedimento de reconstrução](versao_avaliada/docs/reproducao.md) e o [manifesto dos arquivos de origem](versao_avaliada/processamento/manifesto_publico.csv).
 
-- [README da aplicação](versao_avaliada/README.md)
-- [Implementação e dados](versao_avaliada/docs/implementacao.md)
-- [Reconstrução a partir dos arquivos originais](versao_avaliada/docs/reproducao.md)
-- [Manifesto dos arquivos públicos](versao_avaliada/processamento/manifesto_publico.csv)
-- [Evidências da aplicação e testes](versao_avaliada/evidencias/)
-- [Conciliação TABNET](versao_avaliada/conciliacao/)
+## Tecnologias da versão avaliada
 
-O painel usa os CSVs agregados distribuídos neste repositório. A reconstrução integral exige os arquivos originais, conforme o procedimento documentado. Os indicadores são descritivos e não substituem sistemas oficiais nem avaliações clínicas ou institucionais.
+| Componente | Versão | Responsabilidade |
+|---|---|---|
+| Python | 3.12.10 na verificação Windows | Processamento, execução do painel e testes |
+| pandas | 2.3.3 | Leitura, agregação e integração das tabelas |
+| pyreaddbc e dbfread | 2.0.4 e 2.0.7 | Conversão dos arquivos DBC e leitura dos registros DBF |
+| Streamlit | 1.50.0 | Interface, filtros e testes da aplicação com AppTest |
+| Altair | 5.5.0 | Visualizações do painel |
+
+[Dependências do painel](versao_avaliada/requirements.txt) · [Dependências do processamento](versao_avaliada/processamento/requirements.txt) · [Documentação da implementação](versao_avaliada/docs/implementacao.md)
+
+## Como conferir os resultados
+
+| Verificação | Resultado da versão avaliada | Evidência |
+|---|---|---|
+| Conservação após integrar SIH e CNES | 427 pares de estabelecimento e competência conferidos, com a mesma contagem de registros e o mesmo valor aprovado antes e depois da integração | [CSV por chave](versao_avaliada/dados/conservacao.csv) |
+| Reconstrução a partir da coleta preservada | Cinco tabelas reproduzidas a partir dos arquivos originais | [Comparação das tabelas](versao_avaliada/evidencias/evidencias_reexecucao/03_comparacao.txt) |
+| Regressão | Sete testes aprovados | [Casos e resultados](versao_avaliada/evidencias/evidencias_reexecucao/04_regressao_detalhada.txt) |
+| Aplicação e cenário P2 | Verificação dos filtros, especialidades e razão entre registros de AIH e leitos SUS | [Execução Windows](versao_avaliada/evidencias/verificacao_windows.txt) · [Resultado do P2](versao_avaliada/resultado_p2.txt) |
+| Comparação externa | A tabela mensal permite identificar as competências com diferenças entre o painel e a consulta TABNET preservada | [Exportações e comparação](versao_avaliada/conciliacao/) |
+
+A conferência interna compara o painel aos arquivos RD da coleta. A comparação com o TABNET usa uma exportação externa e tem resultado próprio. Em maio de 2026, RD e painel registraram 21.522 AIH, ante 21.519 no TABNET (diferença de três registros). As evidências disponíveis permitem quantificar as diferenças observadas. Sua causa permanece indeterminada.
+
+Os indicadores são descritivos e não substituem sistemas oficiais nem avaliações clínicas ou institucionais. A razão entre registros de AIH e leitos SUS cadastrados não equivale à taxa de ocupação hospitalar.
+
+**Revisão avaliada:** [`09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b`](https://github.com/maumas201/tcc-bi-hospitais-df-final/tree/09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b). [Ambiente Linux (JSON)](versao_avaliada/evidencias/evidencias_reexecucao/ambiente.json) · [Log completo da aplicação e TABNET](versao_avaliada/evidencias/evidencias_reexecucao/05_aplicacao_e_tabnet.txt).
+
+[Guia da aplicação](versao_avaliada/README.md) · [Ambiente e logs da reexecução](versao_avaliada/evidencias/evidencias_reexecucao/LEIA-ME.md) · [Demais evidências](versao_avaliada/evidencias/)
