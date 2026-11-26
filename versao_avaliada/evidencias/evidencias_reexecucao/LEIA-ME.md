@@ -14,7 +14,7 @@ Execução técnica complementar feita em Linux, em um clone da revisão acima, 
 - 05_aplicacao_e_tabnet.txt registra o verificador da aplicação, os testes de filtros, P2, especialidades, a regressão e a conciliação mensal com as exportações preservadas. Os testes de interface usam AppTest. Avisos da biblioteca aparecem junto à saída dos scripts.
 - resultado.json resume a conservação interna. conservacao.csv, hashes.csv e mensal.csv são saídas desta execução. O campo histórico “tabnet” em mensal.csv pertence à etapa de integração. O resultado da conciliação é produzido e conferido separadamente em verificar.py.
 
-Os horários dos logs identificam esta execução em UTC. A evidência do computador Windows usado pelo autor é complementar.
+Os horários dos logs identificam esta execução em UTC. A [verificação no Windows](../verificacao_windows.txt) é complementar. Consulte também [a configuração de hardware informada](hardware_informado_windows.png) e [as datas de modificação das exportações TABNET](tabnet_datas_modificacao_exportacoes.png).
 
 ## Como reproduzir em outro clone
 

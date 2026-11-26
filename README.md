@@ -1,6 +1,6 @@
 # Produção hospitalar do SUS no Distrito Federal
 
-Protótipo de Business Intelligence que integra registros de autorizações de internação hospitalar (AIH) do SIH/SUS e cadastros de estabelecimentos e leitos do CNES. O painel permite consultar a produção por hospital e mês de processamento, examinar os leitos cadastrados e conferir os indicadores com os arquivos de origem. A versão avaliada abrange junho de 2025 a junho de 2026.
+Protótipo de Business Intelligence que integra registros de autorizações de internação hospitalar (AIH) do SIH/SUS e cadastros de estabelecimentos e leitos do CNES. O painel permite consultar a produção por hospital e mês de processamento, examinar os leitos cadastrados e conferir os indicadores com os arquivos de origem. A versão avaliada abrange 13 competências, de junho de 2025 a junho de 2026.
 
 **TCC de Sistemas de Informação — UDF**  
 **Título** — Integração de dados do SIH/SUS e do CNES no Distrito Federal: desenvolvimento e avaliação técnica de um protótipo de Business Intelligence para análise da produção hospitalar e dos leitos cadastrados.
@@ -10,9 +10,11 @@ Protótipo de Business Intelligence que integra registros de autorizações de i
 | Maurício Rafael Oliveira da Silva | Implementação do código, testes, pesquisa de tecnologias e pesquisa metodológica. |
 | Gabriel Silva dos Santos | Pesquisa de trabalhos correlatos, produção e revisão do texto e pesquisa metodológica. |
 
+**Orientação:** Profa. Kadidja.
+
 ## Demonstração
 
-![Visão geral do Distrito Federal com a produção e o valor aprovado por competência](docs/imagens/01_visao_geral.png)
+![Visão geral do Distrito Federal com a produção e o valor aprovado por competência](docs/imagens/01_df_visao_geral_13_competencias.png)
 
 [Assistir ou baixar a demonstração do painel (MP4, 4 min 13 s)](docs/video/demonstracao.mp4) · [Galeria com as seis capturas e seus filtros](docs/galeria.md)
 
@@ -53,6 +55,10 @@ O painel abre com os CSV agregados distribuídos. Para repetir o processamento d
 | Aplicação e cenário P2 | Verificação dos filtros, especialidades e razão entre registros de AIH e leitos SUS | [Execução Windows](versao_avaliada/evidencias/verificacao_windows.txt) · [Resultado do P2](versao_avaliada/resultado_p2.txt) |
 | Comparação externa | A tabela mensal permite identificar as competências com diferenças entre o painel e a consulta TABNET preservada | [Exportações e comparação](versao_avaliada/conciliacao/) |
 
-A conferência interna compara o painel aos arquivos RD da coleta. A comparação com o TABNET usa uma exportação externa e tem resultado próprio. As evidências disponíveis permitem quantificar as diferenças observadas. Sua causa permanece indeterminada.
+A conferência interna compara o painel aos arquivos RD da coleta. A comparação com o TABNET usa uma exportação externa e tem resultado próprio. Em maio de 2026, RD e painel registraram 21.522 AIH, ante 21.519 no TABNET (diferença de três registros). As evidências disponíveis permitem quantificar as diferenças observadas. Sua causa permanece indeterminada.
+
+Os indicadores são descritivos e não substituem sistemas oficiais nem avaliações clínicas ou institucionais. A razão entre registros de AIH e leitos SUS cadastrados não equivale à taxa de ocupação hospitalar.
+
+**Revisão avaliada:** [`09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b`](https://github.com/maumas201/tcc-bi-hospitais-df-final/tree/09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b). [Ambiente Linux (JSON)](versao_avaliada/evidencias/evidencias_reexecucao/ambiente.json) · [Log completo da aplicação e TABNET](versao_avaliada/evidencias/evidencias_reexecucao/05_aplicacao_e_tabnet.txt).
 
 [Guia da aplicação](versao_avaliada/README.md) · [Ambiente e logs da reexecução](versao_avaliada/evidencias/evidencias_reexecucao/LEIA-ME.md) · [Demais evidências](versao_avaliada/evidencias/)
