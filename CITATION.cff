@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Para citar este software, utilize os metadados abaixo."
+title: "Integração de dados do SIH/SUS e do CNES no Distrito Federal: desenvolvimento e avaliação técnica de um protótipo de Business Intelligence para análise da produção hospitalar e dos leitos cadastrados"
+type: software
+authors:
+  - family-names: "Silva"
+    given-names: "Maurício Rafael Oliveira da"
+  - family-names: "Santos"
+    given-names: "Gabriel Silva dos"
+repository-code: "https://github.com/maumas201/tcc-bi-hospitais-df-final"
+license: MIT
+commit: "09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b"
