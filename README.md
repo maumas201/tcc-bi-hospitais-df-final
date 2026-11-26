@@ -7,10 +7,14 @@ Protótipo de Business Intelligence que integra registros de autorizações de i
 
 | Autores | Contribuições |
 |---|---|
-| Maurício Rafael Oliveira da Silva | Implementação do código, testes, pesquisa de tecnologias e pesquisa metodológica. |
-| Gabriel Silva dos Santos | Pesquisa de trabalhos correlatos, produção e revisão do texto e pesquisa metodológica. |
+| Maurício Rafael Oliveira da Silva | Definição do problema e dos objetivos, metodologia, aquisição, tratamento e integração dos dados, desenvolvimento do dashboard, testes, validação e documentação do repositório. |
+| Gabriel Silva dos Santos | Pesquisa bibliográfica, redação da monografia, revisão acadêmica e preparação da apresentação. |
 
 **Orientação:** Profa. Kadidja.
+
+[Contribuições dos autores](CONTRIBUICOES.md) · [Licença MIT](LICENSE) · [Metadados de citação](CITATION.cff) · [Fichas técnicas dos indicadores](docs/indicadores/README.md)
+
+A licença MIT abrange o software e a documentação própria; não modifica as condições aplicáveis aos dados e materiais de terceiros.
 
 ## Demonstração
 
@@ -31,7 +35,7 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-O painel abre com os CSV agregados distribuídos. Para repetir o processamento desde os DBC, consulte o [procedimento de reconstrução](versao_avaliada/docs/reproducao.md) e o [manifesto dos arquivos de origem](versao_avaliada/processamento/manifesto_publico.csv).
+O painel abre com os CSV agregados distribuídos. Os arquivos DBC históricos são preservados fora do repositório público; o manifesto identifica cada arquivo, URL de origem, data e hora registrada, tamanho e SHA-256. Uma coleta posterior pode apresentar conteúdo diferente. Para repetir o processamento desde os DBC, consulte o [procedimento de reconstrução](versao_avaliada/docs/reproducao.md) e o [manifesto dos arquivos de origem](versao_avaliada/processamento/manifesto_publico.csv).
 
 ## Tecnologias da versão avaliada
 
@@ -47,7 +51,7 @@ O painel abre com os CSV agregados distribuídos. Para repetir o processamento d
 
 ## Avaliação técnica e resultados
 
-Os testes iniciais do protótipo foram executados por Maurício Rafael Oliveira da Silva em seu ambiente Windows. Para verificar a reprodutibilidade em outro ambiente, foi realizada uma reexecução complementar em Linux com auxílio do ChatGPT, utilizando um clone da revisão avaliada e os arquivos originais da coleta. A verificação posterior em Windows está registrada separadamente.
+O desenvolvimento e os testes iniciais ocorreram em ambiente Windows. O manifesto da coleta registra a aquisição dos 39 arquivos em 23 de novembro de 2026. Em 26 de novembro de 2026, a verificação da aplicação no Windows foi complementada por auditorias das fontes RD e LT, ensaio de desempenho com AppTest e inspeção da interface. A reexecução em Linux, realizada com auxílio do ChatGPT a partir dos mesmos arquivos originais e da revisão avaliada, constitui uma verificação complementar de reprodutibilidade, e não substitui os testes em Windows.
 
 [Ambientes de execução e procedimento de validação](versao_avaliada/evidencias/evidencias_reexecucao/LEIA-ME.md).
 
