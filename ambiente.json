@@ -1,0 +1,15 @@
+{
+  "inicio_utc": "2026-11-26T03:50:56.408244+00:00",
+  "ambiente": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "commit": "09f2817ca8a9d60fe1cfa21656f9b7f8a931a76b",
+  "zip_sha256": "ae861f1cac6ebd65f3289a2719c0cdcc8b58e7d8d31c1508e92a1978a898ea38",
+  "versoes": {
+    "pandas": "2.3.3",
+    "streamlit": "1.50.0",
+    "altair": "5.5.0",
+    "dbfread": "2.0.7",
+    "pyreaddbc": "2.0.4"
+  },
+  "venv_acessa_pacotes_do_sistema": true
+}
