@@ -16,7 +16,9 @@ py -3.12 -m venv .venv
 ```
 Consulte [a documentação do código e dos dados](docs/implementacao.md) e [a descrição acadêmica da interface](docs/texto_TCC.md). Os registros de execução e as capturas estão em evidencias/. A aplicação abre com os CSV distribuídos e permite exportar a tabela filtrada de estabelecimentos.
 
-## Versão avaliada e evidências
+## Avaliação técnica e evidências
+
+Os testes iniciais foram executados por Maurício Rafael Oliveira da Silva em Windows. A [documentação dos ambientes e da reexecução complementar](evidencias/evidencias_reexecucao/LEIA-ME.md) apresenta os registros de avaliação e reprodutibilidade.
 [Visão geral do DF](evidencias/DF_13_competencias.png) · [Hospital da Região Leste, P2 e especialidades](evidencias/P2_trimestre_especialidades.png) · [Conciliação financeira](evidencias/TABNET_valor.png)
 
 Para repetir todas as conferências da aplicação e da comparação externa mensal em uma instalação nova, execute:

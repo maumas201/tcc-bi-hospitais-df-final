@@ -1,6 +1,6 @@
 # Capturas do painel
 
-Fonte das imagens: capturas da aplicação pelos autores.
+Fonte: elaboração própria (2026), a partir das capturas do protótipo e das bases SIH/SUS e CNES.
 
 ## Visão geral
 

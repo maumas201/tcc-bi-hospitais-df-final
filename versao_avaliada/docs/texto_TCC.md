@@ -1,4 +1,4 @@
-# Texto para a seção 5.6 — Interface e implementação
+# Interface e implementação do protótipo
 A aplicação foi implementada em Python com Streamlit. A interface recebe tabelas agregadas em CSV e permite selecionar o período de processamento e o estabelecimento. Na visão geral, a contagem dos registros de AIH e o valor aprovado são somados para o recorte selecionado. Para consultas com mais de uma competência, a aplicação apresenta duas séries mensais em gráficos de linhas. Cada ponto corresponde a um mês. Os dois eixos verticais têm unidades e escalas próprias.
  
 A aba Estabelecimentos apresenta a produção e os leitos cadastrados por unidade e competência. A distribuição por especialidade reúne os registros do SIH/RD pelo campo ESPEC e associa cada código a uma descrição. A razão entre os registros de AIH e os leitos SUS é calculada para o mesmo estabelecimento e mês. A interface identifica situações em que a quantidade de leitos é zero ou está ausente. A tabela por estabelecimento e competência pode ser exportada para CSV.

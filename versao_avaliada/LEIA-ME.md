@@ -5,7 +5,7 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.txt
 .\.venv\Scripts\python -m streamlit run app.py
 ```
-Os CSVs agregados vieram de Painel_DF_com_TABNET.zip. O processamento dos DBC está no projeto de origem. Esta versão apresenta a conciliação mensal do DF. A investigação por estabelecimento em maio/2026 é uma evidência separada.
+Os CSVs agregados correspondem à versão avaliada da integração SIH/SUS e CNES. O código de processamento dos DBC está disponível em [processamento/](processamento/), e o procedimento de reconstrução está descrito na [documentação técnica](docs/reproducao.md). Esta versão apresenta a conciliação mensal do DF. A investigação por estabelecimento em maio/2026 é uma evidência separada.
 
 ## Conferência da versão
 Para repetir o teste automatizado, execute no PowerShell da pasta:

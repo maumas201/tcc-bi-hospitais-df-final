@@ -17,4 +17,4 @@ A partir de processamento/, execute com os arquivos e fichas disponíveis:
 ..\.venv\Scripts\python especialidades.py coleta_df --saida especialidades.csv
 ..\.venv\Scripts\python conferir_reconstrucao.py
 ```
-A verificação confronta os 39 originais com os hashes públicos registrados para a versão avaliada. Depois compara cabeçalhos e valores dos cinco CSV, respeitando a ordem das linhas e aceitando finais de linha de Windows ou Linux. Uma revisão posterior da fonte pode produzir outros arquivos. Identifique a coleta correspondente antes de interpretar uma divergência. No teste desta entrega foram usados os originais preservados.
+A verificação confronta os 39 originais com os hashes públicos registrados para a versão avaliada. Depois compara cabeçalhos e valores dos cinco CSV, respeitando a ordem das linhas e aceitando finais de linha de Windows ou Linux. Uma revisão posterior da fonte pode produzir outros arquivos. Identifique a coleta correspondente antes de interpretar uma divergência. A reexecução complementar utilizou os arquivos originais preservados da coleta avaliada.

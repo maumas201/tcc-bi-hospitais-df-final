@@ -45,7 +45,11 @@ O painel abre com os CSV agregados distribuídos. Para repetir o processamento d
 
 [Dependências do painel](versao_avaliada/requirements.txt) · [Dependências do processamento](versao_avaliada/processamento/requirements.txt) · [Documentação da implementação](versao_avaliada/docs/implementacao.md)
 
-## Como conferir os resultados
+## Avaliação técnica e resultados
+
+Os testes iniciais do protótipo foram executados por Maurício Rafael Oliveira da Silva em seu ambiente Windows. Para verificar a reprodutibilidade em outro ambiente, foi realizada uma reexecução complementar em Linux com auxílio do ChatGPT, utilizando um clone da revisão avaliada e os arquivos originais da coleta. A verificação posterior em Windows está registrada separadamente.
+
+[Ambientes de execução e procedimento de validação](versao_avaliada/evidencias/evidencias_reexecucao/LEIA-ME.md).
 
 | Verificação | Resultado da versão avaliada | Evidência |
 |---|---|---|

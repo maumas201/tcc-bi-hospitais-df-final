@@ -1,4 +1,4 @@
-# Código, dados e reprodução
+# Arquitetura, implementação e dados
 ## Interface
 Comando de entrada: streamlit run app.py. ler_csv preserva CNES, competência e ESPEC como texto e guarda as leituras em cache por caminho e separador. app.py seleciona o período, depois a unidade. O recorte alimenta as duas primeiras abas. A conservação interna acompanha a unidade. A referência mensal externa acompanha somente o período, pois abrange o DF.
 |Arquivo|Responsabilidade e saída|
@@ -28,4 +28,4 @@ A coleta requer acesso ao servidor FTP. Uma coleta posterior pode obter outros b
 ## Referência externa
 conciliacao/importar_tabnet.py lê a exportação mensal em conciliacao/dados, verifica subtotais e seleciona 13 competências. comparar_tabnet.py confronta o recorte com mensal.csv e escreve conciliacao/comparacao_tabnet.csv. Compare com dados/comparacao_tabnet.csv. A exportação por estabelecimento de maio/2026 está em conciliacao/maio/. O sinal da diferença é painel menos TABNET.
 ## Versionamento
-Esta pasta pode ser incorporada como versao_avaliada/ no repositório existente. O README da raiz do repositório deve apontar para seu README. Preserve os caminhos relativos dentro dela. Versione scripts, requirements, dados agregados, documentação e evidências selecionadas. Mantenha a coleta com registros individuais e os ambientes virtuais fora do Git. Revise git status antes do commit.
+A implementação avaliada está organizada em `versao_avaliada/`, com acesso pelo README principal. O repositório versiona scripts, dependências, dados agregados, documentação e evidências de execução. Os arquivos originais com registros individuais e os ambientes virtuais são mantidos fora do Git. O manifesto público permite identificar os arquivos de origem da coleta.
