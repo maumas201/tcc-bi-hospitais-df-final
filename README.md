@@ -8,7 +8,7 @@ Protótipo de Business Intelligence que integra registros de autorizações de i
 | Autores | Contribuições |
 |---|---|
 | Maurício Rafael Oliveira da Silva | Definição do problema e dos objetivos, metodologia, aquisição, tratamento e integração dos dados, desenvolvimento do dashboard, testes, validação e documentação do repositório. |
-| Gabriel Silva dos Santos | Pesquisa bibliográfica, redação da monografia, revisão acadêmica e preparação da apresentação. |
+| Gabriel Silva dos Santos | Pesquisa bibliográfica, redação da monografia, revisão acadêmica e preparação da apresentação. Revisão redacional dos capítulos, organização estrutural do trabalho e adequação da redação e da formatação às orientações acadêmicas e às considerações da orientadora. |
 
 **Orientação:** Profa. Kadidja.
 
