@@ -6,6 +6,6 @@ Definição do problema e dos objetivos, elaboração da metodologia, aquisiçã
 
 ## Gabriel Silva dos Santos
 
-Pesquisa bibliográfica, redação da monografia, revisão acadêmica e preparação da apresentação.
+Pesquisa bibliográfica, redação da monografia, revisão acadêmica e preparação da apresentação. Revisão redacional dos capítulos, organização estrutural do trabalho e adequação da redação e da formatação às orientações acadêmicas e às considerações da orientadora.
 
 
